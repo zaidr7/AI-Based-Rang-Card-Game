@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dialog_rang">
+        <item>Hearts / Paan</item>
+        <item>Spades / Chiri</item>
+        <item>Diamonds / Eint</item>
+        <item>Clubs / Hokum</item>
+    </string-array>
+</resources>

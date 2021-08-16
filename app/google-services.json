@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "755547627084",
+    "project_id": "ranggame-8fd10",
+    "storage_bucket": "ranggame-8fd10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755547627084:android:a74ee269bade063cf55ee9",
+        "android_client_info": {
+          "package_name": "com.hybridoitc.rang.game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755547627084-s4bs2ssej3o2mduq3li36d0r2hu22022.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBkgoi3-orVAXG3xnMCV_ZuAjCLRirIuE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755547627084-s4bs2ssej3o2mduq3li36d0r2hu22022.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

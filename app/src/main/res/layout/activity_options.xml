@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+
+    android:hapticFeedbackEnabled="true"
+    tools:context=".Options">
+
+
+    <Switch
+        android:id="@+id/sw1"
+        android:layout_width="231dp"
+        android:layout_height="95dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="81dp"
+        android:layout_marginBottom="127dp"
+        android:checked="false"
+        android:thumbTint="@color/blue"
+        android:trackTint="@color/grey"
+        android:text="MUSIC"
+        android:textOff="Off"
+        android:textOn="On"
+        android:textSize="24sp"
+        style="@style/Cursive"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/sw2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Switch
+        android:id="@+id/sw2"
+        android:layout_width="228dp"
+        android:layout_height="102dp"
+        android:layout_gravity="center"
+        android:thumbTint="@color/blue"
+        android:trackTint="@color/grey"
+        android:layout_marginStart="81dp"
+        android:layout_marginBottom="88dp"
+        android:checked="false"
+        style="@style/Cursive"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:text="VIBRATION"
+        android:textOff="Off"
+        android:textOn="On"
+        android:textSize="24sp"
+
+        app:layout_constraintBottom_toTopOf="@+id/backbutton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sw1" />
+
+    <Button
+        android:id="@+id/backbutton"
+        style="@style/Cursive"
+        android:layout_width="171dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginBottom="77dp"
+        android:hapticFeedbackEnabled="true"
+        android:text="Back"
+        android:textStyle="bold"
+        app:backgroundTint="@color/lightGreen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sw2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/Cursive"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_width="194dp"
+        android:layout_height="92dp"
+
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginBottom="79dp"
+        android:text="OPTIONS"
+        android:textAlignment="center"
+
+        android:textSize="26sp"
+
+        app:layout_constraintBottom_toTopOf="@+id/sw1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundg"
+    android:hapticFeedbackEnabled="true"
+
+    tools:context=".MainMenu">
+
+    <Button
+        android:id="@+id/button5"
+        style="@style/Cursive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="53dp"
+        android:hapticFeedbackEnabled="true"
+        android:text="🛑 Quit Game"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:backgroundTint="@color/lightGreen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="-22dp" />
+
+    <Button
+        android:id="@+id/button4"
+        style="@style/Cursive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="146dp"
+        android:hapticFeedbackEnabled="true"
+        android:text="📊 Record"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:backgroundTint="@color/lightGreen"
+        tools:layout_editor_absoluteX="-31dp"
+        tools:layout_editor_absoluteY="608dp" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/Cursive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginStart="-14dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="237dp"
+        android:hapticFeedbackEnabled="true"
+        android:text="⚙ Options"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:backgroundTint="@color/lightGreen"
+        tools:layout_editor_absoluteX="-31dp"
+        tools:layout_editor_absoluteY="433dp" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Cursive"
+        android:layout_width="wrap_content"
+        android:layout_height="69dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-17dp"
+        android:layout_marginEnd="-3dp"
+        android:layout_marginBottom="325dp"
+        android:hapticFeedbackEnabled="true"
+        android:text="📜 Rules"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:backgroundTint="@color/lightGreen"
+        tools:layout_editor_absoluteX="-14dp"
+        tools:layout_editor_absoluteY="508dp" />
+
+    <Button
+        android:id="@+id/button1"
+        style="@style/Cursive"
+        android:layout_width="451dp"
+        android:layout_height="72dp"
+        android:layout_above="@+id/button2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="-11dp"
+        android:layout_marginEnd="-6dp"
+        android:layout_marginBottom="38dp"
+        android:hapticFeedbackEnabled="true"
+        android:text="▶ Start Game"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:backgroundTint="@color/lightGreen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.451" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="358dp"
+        android:layout_height="164dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/logoa"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="12dp" />
+
+</RelativeLayout>

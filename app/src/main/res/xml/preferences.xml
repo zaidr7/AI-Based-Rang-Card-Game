@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto" >
+
+    <PreferenceCategory  >
+        <FinalYearProject.BandRang.IconPickerPreference
+        android:key="@string/icon_type_game_background"
+        android:layout="@layout/item_preference_background"
+        android:title="@string/background_icon_label"
+        android:summary="Select a background" />
+
+        <FinalYearProject.BandRang.IconPickerPreference
+            android:key="@string/icon_type_card_back"
+            android:layout="@layout/item_preference_background"
+            android:title="@string/card_icon_label"
+            android:summary="Select a card back" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
